@@ -9,7 +9,7 @@ export default function SearchBar (){
     const [searchWord, setSearchWord] = useState("")
 
     
-
+console.log()
     function handleSearchFilter(e){
         setSearchWord(e.target.value)
 
