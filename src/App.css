@@ -1,0 +1,75 @@
+
+body, html{
+  background-color: gainsboro;
+
+}
+
+.search {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.input-section  {
+  width: 320px;
+  padding: 0.6rem;
+  height: 30px;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+input {
+  outline: none;
+  border: none;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  margin: 0px auto;
+}
+
+input:focus {
+  outline: none;
+}
+.icons {
+    height: 30px;
+    width: 40px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    padding: 0.6rem;
+}
+
+.icons:hover {
+  background-color: beige;
+}
+.search-returns {
+  width: 335px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 0px;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.texts {
+  padding: 0.5rem 1rem;
+  margin: 0px;
+  border-bottom: 1px solid rgba(175, 166, 166, 0.185);
+  background-color: rgb(246, 248, 248);
+  margin: 0.2rem 0px;
+
+}
+
+.texts:hover {
+  background-color: rgba(229, 237, 238, 0.753);
+}
